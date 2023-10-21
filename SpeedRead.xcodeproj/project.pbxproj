@@ -1,0 +1,628 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1933F4202AE35E8200197796 /* SpeedReadApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F41F2AE35E8200197796 /* SpeedReadApp.swift */; };
+		1933F4222AE35E8200197796 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F4212AE35E8200197796 /* ContentView.swift */; };
+		1933F4242AE35E8300197796 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4232AE35E8300197796 /* Assets.xcassets */; };
+		1933F4272AE35E8300197796 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4262AE35E8300197796 /* Preview Assets.xcassets */; };
+		1933F4312AE35E8300197796 /* SpeedReadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F4302AE35E8300197796 /* SpeedReadTests.swift */; };
+		1933F43B2AE35E8300197796 /* SpeedReadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F43A2AE35E8300197796 /* SpeedReadUITests.swift */; };
+		1933F43D2AE35E8300197796 /* SpeedReadUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1933F43C2AE35E8300197796 /* SpeedReadUITestsLaunchTests.swift */; };
+		1933F44A2AE3600300197796 /* Tavi Greenfield Resume copy.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4492AE3600300197796 /* Tavi Greenfield Resume copy.pdf */; };
+		1933F44C2AE361B100197796 /* After Peter Essay (1).pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F44B2AE361B100197796 /* After Peter Essay (1).pdf */; };
+		1933F44E2AE3631600197796 /* Chrome Test.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F44D2AE3631600197796 /* Chrome Test.pdf */; };
+		1933F4502AE3639600197796 /* Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F44F2AE3639600197796 /* Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf */; };
+		1933F4522AE3640800197796 /* Gov1011_Kass_GenealogyOfJustice.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4512AE3640800197796 /* Gov1011_Kass_GenealogyOfJustice.pdf */; };
+		1933F4542AE3649600197796 /* dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4532AE3649600197796 /* dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf */; };
+		1933F4562AE3651100197796 /* Rini 2017 Fake News and Partisan Epistemology.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 1933F4552AE3651100197796 /* Rini 2017 Fake News and Partisan Epistemology.pdf */; };
+		1947C8AC2AE37CD400324E4C /* ImportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1947C8AB2AE37CD400324E4C /* ImportView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1933F42D2AE35E8300197796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1933F4142AE35E8200197796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1933F41B2AE35E8200197796;
+			remoteInfo = SpeedRead;
+		};
+		1933F4372AE35E8300197796 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1933F4142AE35E8200197796 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1933F41B2AE35E8200197796;
+			remoteInfo = SpeedRead;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1933F41C2AE35E8200197796 /* SpeedRead.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedRead.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1933F41F2AE35E8200197796 /* SpeedReadApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReadApp.swift; sourceTree = "<group>"; };
+		1933F4212AE35E8200197796 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		1933F4232AE35E8300197796 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1933F4262AE35E8300197796 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1933F42C2AE35E8300197796 /* SpeedReadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1933F4302AE35E8300197796 /* SpeedReadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReadTests.swift; sourceTree = "<group>"; };
+		1933F4362AE35E8300197796 /* SpeedReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpeedReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1933F43A2AE35E8300197796 /* SpeedReadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReadUITests.swift; sourceTree = "<group>"; };
+		1933F43C2AE35E8300197796 /* SpeedReadUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedReadUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1933F4492AE3600300197796 /* Tavi Greenfield Resume copy.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Tavi Greenfield Resume copy.pdf"; sourceTree = "<group>"; };
+		1933F44B2AE361B100197796 /* After Peter Essay (1).pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "After Peter Essay (1).pdf"; sourceTree = "<group>"; };
+		1933F44D2AE3631600197796 /* Chrome Test.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Chrome Test.pdf"; sourceTree = "<group>"; };
+		1933F44F2AE3639600197796 /* Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf; sourceTree = "<group>"; };
+		1933F4512AE3640800197796 /* Gov1011_Kass_GenealogyOfJustice.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Gov1011_Kass_GenealogyOfJustice.pdf; sourceTree = "<group>"; };
+		1933F4532AE3649600197796 /* dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf"; sourceTree = "<group>"; };
+		1933F4552AE3651100197796 /* Rini 2017 Fake News and Partisan Epistemology.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "Rini 2017 Fake News and Partisan Epistemology.pdf"; sourceTree = "<group>"; };
+		1947C8AB2AE37CD400324E4C /* ImportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImportView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1933F4192AE35E8200197796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F4292AE35E8300197796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F4332AE35E8300197796 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1933F4132AE35E8200197796 = {
+			isa = PBXGroup;
+			children = (
+				1933F41E2AE35E8200197796 /* SpeedRead */,
+				1933F42F2AE35E8300197796 /* SpeedReadTests */,
+				1933F4392AE35E8300197796 /* SpeedReadUITests */,
+				1933F41D2AE35E8200197796 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1933F41D2AE35E8200197796 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1933F41C2AE35E8200197796 /* SpeedRead.app */,
+				1933F42C2AE35E8300197796 /* SpeedReadTests.xctest */,
+				1933F4362AE35E8300197796 /* SpeedReadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1933F41E2AE35E8200197796 /* SpeedRead */ = {
+			isa = PBXGroup;
+			children = (
+				1947C8AB2AE37CD400324E4C /* ImportView.swift */,
+				1933F4552AE3651100197796 /* Rini 2017 Fake News and Partisan Epistemology.pdf */,
+				1933F4532AE3649600197796 /* dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf */,
+				1933F4512AE3640800197796 /* Gov1011_Kass_GenealogyOfJustice.pdf */,
+				1933F44F2AE3639600197796 /* Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf */,
+				1933F44D2AE3631600197796 /* Chrome Test.pdf */,
+				1933F44B2AE361B100197796 /* After Peter Essay (1).pdf */,
+				1933F4492AE3600300197796 /* Tavi Greenfield Resume copy.pdf */,
+				1933F41F2AE35E8200197796 /* SpeedReadApp.swift */,
+				1933F4212AE35E8200197796 /* ContentView.swift */,
+				1933F4232AE35E8300197796 /* Assets.xcassets */,
+				1933F4252AE35E8300197796 /* Preview Content */,
+			);
+			path = SpeedRead;
+			sourceTree = "<group>";
+		};
+		1933F4252AE35E8300197796 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				1933F4262AE35E8300197796 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1933F42F2AE35E8300197796 /* SpeedReadTests */ = {
+			isa = PBXGroup;
+			children = (
+				1933F4302AE35E8300197796 /* SpeedReadTests.swift */,
+			);
+			path = SpeedReadTests;
+			sourceTree = "<group>";
+		};
+		1933F4392AE35E8300197796 /* SpeedReadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1933F43A2AE35E8300197796 /* SpeedReadUITests.swift */,
+				1933F43C2AE35E8300197796 /* SpeedReadUITestsLaunchTests.swift */,
+			);
+			path = SpeedReadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1933F41B2AE35E8200197796 /* SpeedRead */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1933F4402AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedRead" */;
+			buildPhases = (
+				1933F4182AE35E8200197796 /* Sources */,
+				1933F4192AE35E8200197796 /* Frameworks */,
+				1933F41A2AE35E8200197796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpeedRead;
+			productName = SpeedRead;
+			productReference = 1933F41C2AE35E8200197796 /* SpeedRead.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1933F42B2AE35E8300197796 /* SpeedReadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1933F4432AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedReadTests" */;
+			buildPhases = (
+				1933F4282AE35E8300197796 /* Sources */,
+				1933F4292AE35E8300197796 /* Frameworks */,
+				1933F42A2AE35E8300197796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1933F42E2AE35E8300197796 /* PBXTargetDependency */,
+			);
+			name = SpeedReadTests;
+			productName = SpeedReadTests;
+			productReference = 1933F42C2AE35E8300197796 /* SpeedReadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1933F4352AE35E8300197796 /* SpeedReadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1933F4462AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedReadUITests" */;
+			buildPhases = (
+				1933F4322AE35E8300197796 /* Sources */,
+				1933F4332AE35E8300197796 /* Frameworks */,
+				1933F4342AE35E8300197796 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1933F4382AE35E8300197796 /* PBXTargetDependency */,
+			);
+			name = SpeedReadUITests;
+			productName = SpeedReadUITests;
+			productReference = 1933F4362AE35E8300197796 /* SpeedReadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1933F4142AE35E8200197796 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					1933F41B2AE35E8200197796 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					1933F42B2AE35E8300197796 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1933F41B2AE35E8200197796;
+					};
+					1933F4352AE35E8300197796 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 1933F41B2AE35E8200197796;
+					};
+				};
+			};
+			buildConfigurationList = 1933F4172AE35E8200197796 /* Build configuration list for PBXProject "SpeedRead" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1933F4132AE35E8200197796;
+			productRefGroup = 1933F41D2AE35E8200197796 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1933F41B2AE35E8200197796 /* SpeedRead */,
+				1933F42B2AE35E8300197796 /* SpeedReadTests */,
+				1933F4352AE35E8300197796 /* SpeedReadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1933F41A2AE35E8200197796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1933F4542AE3649600197796 /* dokumen.pub_aristotles-quotpoliticsquot-second-edition-0226921859-9780226921853.pdf in Resources */,
+				1933F44E2AE3631600197796 /* Chrome Test.pdf in Resources */,
+				1933F4272AE35E8300197796 /* Preview Assets.xcassets in Resources */,
+				1933F4562AE3651100197796 /* Rini 2017 Fake News and Partisan Epistemology.pdf in Resources */,
+				1933F4242AE35E8300197796 /* Assets.xcassets in Resources */,
+				1933F44C2AE361B100197796 /* After Peter Essay (1).pdf in Resources */,
+				1933F44A2AE3600300197796 /* Tavi Greenfield Resume copy.pdf in Resources */,
+				1933F4522AE3640800197796 /* Gov1011_Kass_GenealogyOfJustice.pdf in Resources */,
+				1933F4502AE3639600197796 /* Gov1011_Plato_Crito_in_FourTextsOnSocrates_West.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F42A2AE35E8300197796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F4342AE35E8300197796 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1933F4182AE35E8200197796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1933F4222AE35E8200197796 /* ContentView.swift in Sources */,
+				1947C8AC2AE37CD400324E4C /* ImportView.swift in Sources */,
+				1933F4202AE35E8200197796 /* SpeedReadApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F4282AE35E8300197796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1933F4312AE35E8300197796 /* SpeedReadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1933F4322AE35E8300197796 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1933F43D2AE35E8300197796 /* SpeedReadUITestsLaunchTests.swift in Sources */,
+				1933F43B2AE35E8300197796 /* SpeedReadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1933F42E2AE35E8300197796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1933F41B2AE35E8200197796 /* SpeedRead */;
+			targetProxy = 1933F42D2AE35E8300197796 /* PBXContainerItemProxy */;
+		};
+		1933F4382AE35E8300197796 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1933F41B2AE35E8200197796 /* SpeedRead */;
+			targetProxy = 1933F4372AE35E8300197796 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1933F43E2AE35E8300197796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1933F43F2AE35E8300197796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1933F4412AE35E8300197796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedRead/Preview Content\"";
+				DEVELOPMENT_TEAM = 62BP53ZDAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		1933F4422AE35E8300197796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SpeedRead/Preview Content\"";
+				DEVELOPMENT_TEAM = 62BP53ZDAT;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedRead;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Release;
+		};
+		1933F4442AE35E8300197796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBND793QHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedRead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedRead";
+			};
+			name = Debug;
+		};
+		1933F4452AE35E8300197796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBND793QHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedReadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpeedRead.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SpeedRead";
+			};
+			name = Release;
+		};
+		1933F4472AE35E8300197796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBND793QHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedRead;
+			};
+			name = Debug;
+		};
+		1933F4482AE35E8300197796 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CBND793QHS;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.unmatch.SpeedReadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SpeedRead;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1933F4172AE35E8200197796 /* Build configuration list for PBXProject "SpeedRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1933F43E2AE35E8300197796 /* Debug */,
+				1933F43F2AE35E8300197796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1933F4402AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedRead" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1933F4412AE35E8300197796 /* Debug */,
+				1933F4422AE35E8300197796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1933F4432AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedReadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1933F4442AE35E8300197796 /* Debug */,
+				1933F4452AE35E8300197796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1933F4462AE35E8300197796 /* Build configuration list for PBXNativeTarget "SpeedReadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1933F4472AE35E8300197796 /* Debug */,
+				1933F4482AE35E8300197796 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1933F4142AE35E8200197796 /* Project object */;
+}
